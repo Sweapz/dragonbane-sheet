@@ -1,0 +1,37 @@
+{
+  "items": {
+    "equipment": {
+      "weapons": [
+        {
+          "name": "Shortsword",
+          "cost": "60",
+          "supply": "common"
+        },
+        {
+          "name": "Broadsword",
+          "cost": "160",
+          "supply": "uncommon"
+        }
+      ],
+      "armors": [
+        {
+          "name": "Leather",
+          "cost": "60",
+          "supply": "common"
+        },
+        {
+          "name": "Plate",
+          "cost": "160",
+          "supply": "uncommon"
+        }
+      ]
+    },
+    "tradeGoods": [
+      {
+        "name": "Abacus",
+        "cost": "30",
+        "suply": "common"
+      }
+    ]
+  }
+}
