@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Human",
+    "description": "Humans are the last-born. The other kin have songs and legends about times before the dawn of humanity. Today the humans have spread across much of the known world. Many are peasants living in little villages clustered around castles and palaces. Others are warriors sworn to protect the peasants and their vulnerable settlements, markets, and trade caravans from the dangers of the world. Still more are adventurers: fearless humans who venture into he unknown in search of glory, gold, and knowledge.",
+    "baseMovement": 10
+  },
+  {
+    "name": "Halfling",
+    "description": "Halflings are short humanoids often found in hilly farmlands where they live in earthen dwellings with wellstocked larders. They are modest and amiable by nature, with a natural affinity for hearth and home. Halflings are neither warlike nor ambitious, but highly drawn to epic tales and beautiful songs from days long gone. From time to time, this desire can lead them to leave the safety of their homes in search of grand adventures. Because of their vulnerability and fear of “the tall ones,” they are good at staying hidden and quickly getting out of critical situations.",
+    "baseMovement": 8
+  },
+  {
+    "name": "Dwarf",
+    "description": "Dwarves are the oldest of the elder folk, at least according to their own chroniclers. They are an immensely proud and traditional people whose culture is steeped in ancient customs and grandiose ballads of heroic ancestors. Dwarves feel a strong connection with the bedrock and the roots of the world. They are skilled blacksmiths and artisans, admired for their ability to craft wondrous items of precious metal, as well as of iron and stone. Dwarves are also known as fierce warriors armed with axes, war hammers, and other heavy melee weapons forged in their underground smithies.",
+    "baseMovement": 8
+  },
+  {
+    "name": "Elf",
+    "description": "Elves are an ancient kin that for eons have watched over the forests of the world. They are guided by the stars which they regard as divine beings capable of peering into the deepest mysteries. Elven culture is meditatively introverted and sometimes difficult for outsiders to understand. However, it is clear that they are driven by other, more metaphysical concerns than the lust for gold and glory often found in dwarves and humans. Nonetheless, their kin includes many powerful warriors, widely respected and praised by the bards for their skill with both sword and bow.",
+    "baseMovement": 10
+  },
+  {
+    "name": "Mallard",
+    "description": "The origin of the mallards is shrouded in mystery. Some scholars claim that they came from a mighty island realm that was swallowed by the sea thousands of years ago; others believe them to be the result of a failed magical experiment. Whatever the truth may be, these feathered humanoids are a common sight in the world. They have a knack for trade, and their agitated quacking is often an integral part of the soundscape around marketplaces and trade caravans. However, some mallards seek their fortunes as brigands, pirates, or mercenaries. Despite their diminutive size, they are fierce in battle and feared by many for their murderous rage.",
+    "baseMovement": 8
+  },
+  {
+    "name": "Wolfkin",
+    "description": "Wolfkin are the untamed fury of the wilds. They may be highly intelligent creatures, and like the elves, they have an unfailing tendency to sink into thought, pondering the mysteries of the universe. But simmering under the surface are ancient hunting instincts and an unquenchable anger over past wrongs committed against wolfkin, wolves, and the wilderness in general. As hunters and pathfinders they are second to none, but wolfkin can also be found as heavily armed mercenaries, or mystics and healers in human settlements.",
+    "baseMovement": 12
+  }
+]

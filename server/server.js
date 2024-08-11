@@ -21,7 +21,7 @@ app.use(express.json());
 // GET route - Allows to get any items based off the query.
 // example: localhost:3000/items?type=xxx&category=yyy
 app.get("/items", (req, res) => {
-  fs.readFile("db.json", "utf8", (err, data) => {
+  fs.readFile("items.json", "utf8", (err, data) => {
     if (err) {
       console.log(err);
       res.status(500).send("Internal Server Error");
@@ -43,7 +43,7 @@ app.get("/items", (req, res) => {
 // GET route - Allows to get all the equipment
 // example: localhost:3000/equipment
 app.get("/equipment", (req, res) => {
-  fs.readFile("db.json", "utf8", (err, data) => {
+  fs.readFile("items.json", "utf8", (err, data) => {
     if (err) {
       console.log(err);
       res.status(500).send("Internal Server Error");
@@ -56,6 +56,42 @@ app.get("/equipment", (req, res) => {
       armors: jsonData.items['equipment']['armors'],
       clothes: jsonData.items['equipment']['clothes'],
       weapons: jsonData.items['equipment']['weapons'],
+    });
+  });
+});
+
+// GET route - Allows to get all the stats for the character
+// example: localhost:3000/character
+app.get("/character", (req, res) => {
+  fs.readFile("character.json", "utf8", (err, data) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send("Internal Server Error");
+      return;
+    }
+
+    const jsonData = JSON.parse(data);
+
+    res.status(200).json({
+      character: jsonData,
+    });
+  });
+});
+
+// GET route - Allows to get all the kin
+// example: localhost:3000/kin
+app.get("/kin", (req, res) => {
+  fs.readFile("kin.json", "utf8", (err, data) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send("Internal Server Error");
+      return;
+    }
+
+    const jsonData = JSON.parse(data);
+
+    res.status(200).json({
+      kin: jsonData,
     });
   });
 });
@@ -109,52 +145,27 @@ app.post("/clothes", (req, res) => {
   });
 });
 
-// PUT route - Allows to update an item
-// example: localhost:3000/clothes/1
-/*
-  body: {
-    "image": "https://your-image-url.com/image.png",
-    "name": "T-shirt",
-    "price": "10",
-    "rating": 4
-  }
-*/
-app.put("/clothes/:id", (req, res) => {
-  const id = parseInt(req.params.id);
-  const { image, name, price, rating } = req.body;
-
-  fs.readFile("db.json", "utf8", (err, data) => {
+// PUT route - Allows to update the character
+// example: localhost:3000/character
+app.put("/character", (req, res) => {
+  fs.readFile("character.json", "utf8", (err, data) => {
     if (err) {
       console.log(err);
       res.status(500).send("Internal Server Error");
       return;
     }
 
-    const jsonData = JSON.parse(data);
+    var jsonData = JSON.parse(data);
+    jsonData = req.body;
 
-    const index = jsonData.items.findIndex((item) => item.id === id);
-
-    if (index === -1) {
-      res.status(404).send("Not Found");
-      return;
-    }
-
-    jsonData.items[index] = {
-      id,
-      image,
-      name,
-      price,
-      rating,
-    };
-
-    fs.writeFile("db.json", JSON.stringify(jsonData), (err) => {
+    fs.writeFile("character.json", JSON.stringify(jsonData), (err) => {
       if (err) {
         console.log(err);
         res.status(500).send("Internal Server Error");
         return;
       }
 
-      res.status(200).json(jsonData.items[index]);
+      res.status(200).json(jsonData);
     });
   });
 });
