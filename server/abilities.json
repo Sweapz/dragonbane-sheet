@@ -1,0 +1,417 @@
+[
+  {
+    "id": 1,
+    "requirement": {
+      "skillIds": [6],
+      "requiredLevel": 12
+    },
+    "name": "ASSASSIN",
+    "willpowerCost": 3,
+    "description": "Your sneak attack (page 43) deals an extra D8 damage. This heroic ability can be combined with the heroic ability Backstabbing. You activate this ability after you roll to hit, but before you roll for damage."
+  },
+  {
+    "id": 2,
+    "requirement": {
+      "skillIds": [6], 
+      "requiredLevel": 12
+    },
+    "name": "BACKSTABBING",
+    "willpowerCost": 3,
+    "description": "You can activate this ability when making a melee attack against an enemy that is also within 2 meters of another player character. Your attack then counts as a sneak attack, which means it cannot be dodged or parried, you get a boon to the roll, and the number of dice rolled for the damage is increased by one (i.e. 2D8 instead of D8). This ability can only be used with a subtle weapon (page 74). Activating this ability does not count as an action."
+  },
+  {
+    "id": 3,
+    "requirement": null,
+    "name": "BATTLE CRY",
+    "willpowerCost": 3,
+    "description": "You can, as an action in combat, let out a battle cry that inspires your friends. All other player characters within earshot immediately heal a condition of their choice (page 51). This heroic ability can only be used in combat."
+  },
+  {
+    "id": 4,
+    "requirement": {
+      "skillIds": [1,5,6,8,9,10],
+      "requiredLevel": 12
+    },
+    "name": "BERSERKER",
+    "willpowerCost": 3,
+    "description": "You gain the Angry condition and immediately attack the nearest opponent in melee combat. If already Angry, you gain another condition of your choice. Then you must keep fighting until all opponents within sight have been defeated or you reach 0 HP. You gain a boon to melee attacks, but can neither parry nor dodge. After the fight you become Exhausted."
+  },
+  {
+    "id": 5,
+    "requirement": {
+      "skillIds": [11],
+      "requiredLevel": 12
+    },
+    "name": "CATLIKE",
+    "willpowerCost": 0,
+    "description": "The number of D6 rolled for damage from a fall (page 53) decreases by one for each WP spent. You can first make an ACROBATICS roll and then activate this heroic ability."
+  },
+  {
+    "id": 6,
+    "requirement": {
+      "skillIds": [20],
+      "requiredLevel": 12
+    },
+    "name": "COMPANION",
+    "willpowerCost": 3,
+    "description": "You can activate this ability to turn an animal (not a monster) into your companion. This takes a stretch of time, and you can only have one animal companion at a time. The GM decides which animals are nearby – see the list on page 99. The animal follows you as long as you remain in its natural environment, and it can scout for you at no additional WP cost. For 3 additional WP you can command the animal to attack an enemy (free action for you)."
+  },
+  {
+    "id": 7,
+    "requirement": {
+      "skillIds": [18],
+      "requiredLevel": 12
+    },
+    "name": "CONTORTIONIST",
+    "willpowerCost": 1,
+    "description": "You escape from your shackles or squeeze through a narrow space without rolling for any skill."
+  },
+  {
+    "id": 8,
+    "requirement": {
+      "skillIds": [1,5,6,8,9,10],
+      "requiredLevel": 12
+    },
+    "name": "DEFENSIVE",
+    "willpowerCost": 3,
+    "description": "You may attempt to parry an attack (page 46) without consuming your action for the round. The bonus parry can be used at any time during the round. You may only try to parry the same attack once and you cannot try to dodge and parry the same attack. This ability can be used multiple times per round, as long as you have enough WP."
+  },
+  {
+    "id": 9,
+    "requirement": {
+      "skillIds": [1,5,6,8,9,10],
+      "requiredLevel": 12
+    },
+    "name": "DEFLECT ARROW",
+    "willpowerCost": 1,
+    "description": "You can parry a ranged attack with a melee weapon, instead of using a shield."
+  },
+  {
+    "id": 10,
+    "requirement": {
+      "skillIds": [15],
+      "requiredLevel": 12
+    },
+    "name": "DISGUISE",
+    "willpowerCost": 2,
+    "description": "You are a master of disguise and can easily assume the appearance of others. After working for a stretch of time you can assume another person’s looks, voice, and demeanor. The person must be of the same kin as you. Anyone who knows the person and sees you from up to 10 meters away can make an AWARENESS roll to see through your disguise."
+  },
+  {
+    "id": 11,
+    "requirement": {
+      "skillIds": [1,10],
+      "requiredLevel": 12
+    },
+    "name": "DOUBLE SLASH",
+    "willpowerCost": 3,
+    "description": "When wielding a slashing weapon, you can attack two enemies within 2 meters with a single slash. You only roll for the attack once – if it succeeds, both enemies are hit. Your enemies can parry or dodge the attack individually. Damage is rolled separately. This ability can be combined with Dual Wield."
+  },
+  {
+    "id": 12,
+    "requirement": {
+      "skillIds": [1,2,4,5,6,7,8,9,10],
+      "requiredLevel": 12
+    },
+    "name": "DRAGONSLAYER",
+    "willpowerCost": 3,
+    "description": "An attack aimed at a monster (not a normal NPC) deals an additional D8 damage. You activate this ability after you roll to hit, but before you roll for damage."
+  },
+  {
+    "id": 13,
+    "requirement": {
+      "skillIds": [1,5,6,8,9,10],
+      "requiredLevel": 12
+    },
+    "name": "DUAL WIELD",
+    "willpowerCost": 3,
+    "description": "This heroic ability can only be used if you wield a one-handed weapon in each hand. The STR requirement of the weapon in your off hand (you decide if it is right or left) increases by 3. You activate the ability on your turn in combat and can then perform an extra attack with your second weapon. The second attack is done with a bane. You decide in which order to use your two weapons. Finish the first attack, including damage, before rolling the second one. This ability can be combined with Double Slash."
+  },
+  {
+    "id": 14,
+    "requirement": {
+      "skillIds": [12],
+      "requiredLevel": 12
+    },
+    "name": "EAGLE EYE",
+    "willpowerCost": 2,
+    "description": "You can see a person or object up to 200 meters away in great detail, as if standing right next to it. The effect lasts for one stretch. In combat you can also shoot at a target beyond the weapon’s effective range (page 49) without getting a bane to your roll. This heroic ability must be activated for each new target."
+  },
+  {
+    "id": 15,
+    "requirement": {
+      "skillIds": [18],
+      "requiredLevel": 12
+    },
+    "name": "FAST FOOTWORK",
+    "willpowerCost": 3,
+    "description": "You may attempt to dodge an attack (page 47) without consuming your action for the round. The bonus dodge can be performed at any time during the round. You may only try to dodge the same attack once and you cannot try to dodge and parry the same attack. This ability can be used multiple times per round, as long as you have enough WP."
+  },
+  {
+    "id": 16,
+    "requirement": null,
+    "name": "FAST HEALER",
+    "willpowerCost": 2,
+    "description": "You heal an extra D6 HP during a stretch rest. This heroic ability does not affect WP or conditions."
+  },
+  {
+    "id": 17,
+    "requirement": null,
+    "name": "FEARLESS",
+    "willpowerCost": 2,
+    "description": "You automatically resist fear (page 52), without a WIL roll."
+  },
+  {
+    "id": 18,
+    "requirement": null,
+    "name": "FOCUSED",
+    "willpowerCost": 0,
+    "description": "Your maximum number of Willpower Points is permanently increased by 2. You can select this heroic ability multiple times, without limit."
+  },
+  {
+    "id": 19,
+    "requirement": {
+      "skillIds": [1,5,10],
+      "requiredLevel": 12
+    },
+    "name": "GUARDIAN",
+    "willpowerCost": 2,
+    "description": "You do not hesitate to take a hit to protect your friends. If you and another player character are both within 2 meters of the same enemy and the enemy tries to attack the other character, you can activate this ability to force the enemy to attack you instead. Using this ability can be done out of turn and it does not count as an action."
+  },
+  {
+    "id": 20,
+    "requirement": {
+      "skillIds": [24],
+      "requiredLevel": 12
+    },
+    "name": "INSIGHT",
+    "willpowerCost": 2,
+    "description": "If you talk a while with another person, you can roll AWARENESS to determine whether that person is telling the truth. You cannot tell exactly what a person is lying about."
+  },
+  {
+    "id": 21,
+    "requirement": {
+      "skillIds": [22],
+      "requiredLevel": 12
+    },
+    "name": "INTUITION",
+    "willpowerCost": 3,
+    "description": "When faced with a difficult decision, you can activate this ability to ask a question directly to the GM and receive a helpful answer. The answer represents your vast general knowledge and should only aid your decision-making, not reveal everything there is to know."
+  },
+  {
+    "id": 22,
+    "requirement": {
+      "skillIds": [3],
+      "requiredLevel": 12
+    },
+    "name": "IRON FIST",
+    "willpowerCost": 1,
+    "description": "The damage of an unarmed attack increases by one D6. You can activate this heroic ability as a free action after rolling the attack."
+  },
+  {
+    "id": 23,
+    "requirement": {
+      "skillIds": [3],
+      "requiredLevel": 12
+    },
+    "name": "IRON GRIP",
+    "willpowerCost": 1,
+    "description": "You get a boon to your BRAWLING roll when trying to grapple another person or prevent the enemy from breaking free."
+  },
+  {
+    "id": 24,
+    "requirement": {
+      "skillIds": [18],
+      "requiredLevel": 12
+    },
+    "name": "LIGHTNING FAST",
+    "willpowerCost": 2,
+    "description": "When drawing initiative card at the start of a combat round (page 41), you may draw two cards instead of one and choose which one you want. You can only activate this heroic ability once per round."
+  },
+  {
+    "id": 25,
+    "requirement": {
+      "skillIds": [16],
+      "requiredLevel": 12
+    },
+    "name": "LONE WOLF",
+    "willpowerCost": 0,
+    "description": "You can take a shift rest in the wilderness without first rolling for BUSHCRAFT to make camp (page 103). The effect only applies to you, even if you have a tent."
+  },
+  {
+    "id": 26,
+    "requirement": null,
+    "name": "MAGIC TALENT",
+    "willpowerCost": 0,
+    "description": "You have an aptitude for magic and can learn a new school of magic (whether you already know any or not). Spells need to be learned separately."
+  },
+  {
+    "id": 27,
+    "requirement": {
+      "skillIds": [1,5,8,10],
+      "requiredLevel": 12
+    },
+    "name": "MASSIVE BLOW",
+    "willpowerCost": 3,
+    "description": "A strike with a two-handed melee weapon inflicts D8 additional points of damage, but you cannot move in the same round."
+  },
+  {
+    "id": 28,
+    "requirement": {
+      "skillIds": [17],
+      "requiredLevel": 12
+    },
+    "name": "MASTER BLACKSMITH",
+    "willpowerCost": 0,
+    "description": "This ability requires blacksmithing tools. In one stretch, you can sharpen a bladed or pointed weapon, at the cost of 3 WP. In one shift, you craft a metal weapon or metal armor of your choice from the lists on pages 73–75."
+  },
+  {
+    "id": 29,
+    "requirement": {
+      "skillIds": [17],
+      "requiredLevel": 12
+    },
+    "name": "MASTER CARPENTER",
+    "willpowerCost": 0,
+    "description": "This ability requires carpentry tools. As an action, you can inflict D12 points of damage per WP spent on a door, wall, or any other inanimate object, ignoring the object’s armor rating."
+  },
+  {
+    "id": 30,
+    "requirement": null,
+    "name": "MASTER CHEF",
+    "willpowerCost": 1,
+    "description": "You automatically succeed at cooking food (page 103) without rolling BUSHCRAFT."
+  },
+  {
+    "requirement": null,
+    "name": "MASTER SPELLCASTER",
+    "willpowerCost": 3,
+    "description": "If you activate this ability on your turn in combat, you can cast two different spells as a single action. It must be two different spells."
+  },
+  {
+    "id": 31,
+    "requirement": {
+      "skillIds": [17],
+      "requiredLevel": 12
+    },
+    "name": "MASTER TANNER",
+    "willpowerCost": 0,
+    "description": "This ability requires leatherworking tools. You can craft one set of leather armor from the skin of an animal or a monster. The armor gets half the beast’s armor rating."
+  },
+  {
+    "id": 32,
+    "requirement": {
+      "skillIds": [14],
+      "requiredLevel": 12
+    },
+    "name": "MONSTER HUNTER",
+    "willpowerCost": 3,
+    "description": "At a crossroads of some kind, you can activate this ability to learn the direction of the most dangerous enemies."
+  },
+  {
+    "id": 3,
+    "requirement": {
+      "skillIds": [23],
+      "requiredLevel": 12
+    },
+    "name": "MUSICIAN",
+    "willpowerCost": 3,
+    "description": "Your beautiful voice instills courage in your friends or fear in your foes. Activating this ability (an action in combat) gives all allies within 10 meters a boon to all rolls, or a bane to all enemies."
+  },
+  {
+    "id": 34,
+    "requirement": {
+      "skillIds": [16],
+      "requiredLevel": 12
+    },
+    "name": "PATHFINDER",
+    "willpowerCost": 1,
+    "description": "You get a boon to your BUSHCRAFT roll when trying to find the right direction in the wilderness."
+  },
+  {
+    "id": 35,
+    "requirement": {
+      "skillIds": [16],
+      "requiredLevel": 12
+    },
+    "name": "QUARTERMASTER",
+    "willpowerCost": 1,
+    "description": "You are good at finding suitable campsites. You automatically succeed at making camp during journeys (page 103)."
+  },
+  {
+    "id": 36,
+    "requirement": null,
+    "name": "ROBUST",
+    "willpowerCost": 0,
+    "description": "Your max HP increases by 2. This heroic ability can be selected multiple times, without limit."
+  },
+  {
+    "id": 37,
+    "requirement": {
+      "skillIds": [30],
+      "requiredLevel": 12
+    },
+    "name": "SEA LEGS",
+    "willpowerCost": 1,
+    "description": "You can activate this ability (not an action) when performing an action in water, even if only waist deep. You are then safe from all negative effects of being in water for one round."
+  },
+  {
+    "id": 38,
+    "requirement": {
+      "skillIds": [1,5,8,10],
+      "requiredLevel": 12
+    },
+    "name": "SHIELD BLOCK",
+    "willpowerCost": 2,
+    "description": "You can activate this ability when parrying with a shield to roll with a boon. You can also parry physical monster attacks that normally cannot be parried."
+  },
+  {
+    "id": 39,
+    "requirement": {
+      "skillIds": [1,5,6,8,9,10],
+      "requiredLevel": 12
+    },
+    "name": "THROWING ARM",
+    "willpowerCost": 2,
+    "description": "You can throw a melee weapon with tremendous force at an enemy within your STR meters away. Roll the attack as normal. The enemy can parry or dodge the attack."
+  },
+  {
+    "id": 40,
+    "requirement": {
+      "skillIds": [13],
+      "requiredLevel": 12
+    },
+    "name": "TREASURE HUNTER",
+    "willpowerCost": 3,
+    "description": "At a crossroads of some kind, you can activate this ability to learn the direction of the greatest treasures."
+  },
+  {
+    "id": 41,
+    "requirement": {
+      "skillIds": [2],
+      "requiredLevel": 12
+    },
+    "name": "TWIN SHOT",
+    "willpowerCost": 3,
+    "description": "By activating this ability when attacking with a bow, you shoot two arrows instead of one. Roll just once to hit, with a bane. Damage is rolled separately."
+  },
+  {
+    "id": 42,
+    "requirement": {
+      "skillIds": [1,2,4,5,6,7,8,9,10],
+      "requiredLevel": 12
+    },
+    "name": "VETERAN",
+    "willpowerCost": 1,
+    "description": "Activating this ability at the start of a combat round allows you to retain your initiative card from the previous round instead of drawing a new one."
+  },
+  {
+    "id": 43,
+    "requirement": {
+      "skillIds": [18],
+      "requiredLevel": 12
+    },
+    "name": "WEASEL",
+    "willpowerCost": 3,
+    "description": "If you are attacked and have another player character within 2 meters, you can activate this ability to let the attack hit that character instead of you."
+  }
+]

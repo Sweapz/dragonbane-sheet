@@ -96,6 +96,24 @@ app.get("/kin", (req, res) => {
   });
 });
 
+// GET route - Allows to get all the abilities
+// example: localhost:3000/abilities
+app.get("/abilities", (req, res) => {
+  fs.readFile("abilities.json", "utf8", (err, data) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send("Internal Server Error");
+      return;
+    }
+
+    const jsonData = JSON.parse(data);
+
+    res.status(200).json({
+      abilities: jsonData,
+    });
+  });
+});
+
 // POST route - Allows to add a new item
 // example: localhost:3000/clothes
 /*
