@@ -413,5 +413,12 @@
     "name": "WEASEL",
     "willpowerCost": 3,
     "description": "If you are attacked and have another player character within 2 meters, you can activate this ability to let the attack hit that character instead of you."
+  },
+  {
+    "id": 44,
+    "requirement": null,
+    "name": "INNER PIECE",
+    "willpowerCost": 3,
+    "description": "As an elf, you can meditate deeply during a stretch rest. You heal an additional D6 HP and a D6 extra WP, and can recover from an additional condition. You are completely unresponsive during your meditation and cannot be awakened."
   }
 ]
